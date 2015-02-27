@@ -16,11 +16,11 @@ Pressing the <kbd>ESC</kbd> key returns you to `command mode`.
 
 This is the mode you use to type `insert` text into a buffer. There are several commands that you can use to enter this mode.
 
-Pressing <kbd>i</kbd> will `insert` text `before` the cursor, & <kdb>I</kbd> at the `start` of the current line.
+Pressing <kbd>i</kbd> will `insert` text `before` the cursor, & <kbd>I</kbd> at the `start` of the current line.
 
-Pressing <kbd>a</kbd> will insert text `after` the cursor, & <kdb>A</kbd> at the `end` of the current line.
+Pressing <kbd>a</kbd> will insert text `after` the cursor, & <kbd>A</kbd> at the `end` of the current line.
 
-Pressing <kbd>o</kbd> will open a `new line below` the current line, & <kdb>O</kbd> will open a new line `above`.
+Pressing <kbd>o</kbd> will open a `new line below` the current line, & <kbd>O</kbd> will open a new line `above`.
 
 ### save the file
 
