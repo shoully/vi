@@ -4,7 +4,7 @@ I will note what I learned using vi editor
 
 ## Operating Modes
 
-There are two modes in **vi**.
+There are two modes in **vi**, `command mode` & `Insert mode`.
 
 ### Command mode
 
