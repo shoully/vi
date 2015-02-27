@@ -1,4 +1,4 @@
-# vi
+# Learn vi editor for Unix
 
 I will note what I learned using vi editor
 
