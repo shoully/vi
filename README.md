@@ -22,6 +22,6 @@ This is the mode you use to type **insert** text into a buffer. There are severa
 | <kbd>a</kbd> | insert text **after** the cursor & <kbd>A</kbd> at the `end` |
 | <kbd>o</kbd> | open a **new line below** the current line & <kbd>O</kbd> `above`|
 
-### save the file
+### Save the file
 
 <kbd>ESC</kbd> then type `:wq` will save and exit.
