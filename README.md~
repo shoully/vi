@@ -2,10 +2,6 @@
 
 I will note what I learned using vi editor
 
-## Starting vi and opening files
-
-Open your **Terminal** app & type `vi filename`
-
 ## Operating Modes
 
 There are two modes in **vi**, `command mode` & `Insert mode`.
@@ -26,28 +22,6 @@ This is the mode you use to type **insert** text into a buffer.
 | <kbd>a</kbd> | insert text **after** the cursor & <kbd>A</kbd> at the **end** |
 | <kbd>o</kbd> | open a **new line below** the current line & <kbd>O</kbd> **above** |
 
-### Saving files and exiting vi
+### Save the file
 
-**Saving changes**
-
-GO to `command mode` and <kbd>ESC</kbd> then type `:wq`.
-
-**Without saving changes**
-
-   `:q!`
-
-**Saving to another file**
-
-   `:w filename`
-
-### Viewing a file
-
-   `view filename`
-
-### Setting a wrap margin
-
-   `set wm=5`
-
-In insert mode, text is wrapped five (5) characters from the right margin of the screen.
-
-
+<kbd>ESC</kbd> then type `:wq` will save and exit.
