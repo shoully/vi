@@ -20,11 +20,11 @@ In this mode commands are used to **move** around and edit text objects
 
 This is the mode you use to type **insert** text into a buffer.
 
-| Key | Description |
-| ------ | ----------- |
-| <kbd>i</kbd> | insert text **before** the cursor & <kbd>I</kbd> at the **start** |
-| <kbd>a</kbd> | insert text **after** the cursor & <kbd>A</kbd> at the **end** |
-| <kbd>o</kbd> | open a **new line below** the current line & <kbd>O</kbd> **above** |
+| Key | Description | Reverse | Description |
+| ------ | ----------- | ----------- | ----------- |
+| <kbd>i</kbd> | insert text **before** the cursor. | <kbd>I</kbd> | insert text inat the **start**. |
+| <kbd>a</kbd> | insert text **after** the cursor. | <kbd>A</kbd> | insert text at the **end**. |
+| <kbd>o</kbd> | open a new line **below** the current line. | <kbd>O</kbd> | open a new line **above** the current line. |
 
 ### Saving files and exiting vi
 
