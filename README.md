@@ -22,8 +22,8 @@ This is the mode you use to type **insert** text into a buffer.
 
 | Key | Description | Reverse | Description |
 | ------ | ----------- | ----------- | ----------- |
-| <kbd>i</kbd> | insert text **before** the cursor. | <kbd>I</kbd> | insert text at the **start**. |
-| <kbd>a</kbd> | insert text **after** the cursor. | <kbd>A</kbd> | insert text at the **end**. |
+| <kbd>i</kbd> | insert text **before** the cursor. | <kbd>I</kbd> | insert text at the **start** of the line. |
+| <kbd>a</kbd> | insert text **after** the cursor. | <kbd>A</kbd> | insert text at the **end** of the line. |
 | <kbd>o</kbd> | new line **below** the current line. | <kbd>O</kbd> | new line **above** the current line. |
 
 ### Saving files and exiting vi
