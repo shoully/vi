@@ -8,17 +8,17 @@ Open your **Terminal** app & type `vi filename`
 
 ## Operating Modes
 
-There are two modes in **vi**, `command mode` & `Insert mode`.
+There are two modes in **vi**, `command mode` & `Insert mode`
 
 ### Command mode
 
 In this mode commands are used to **move** around and edit text objects
 
-<kbd>ESC</kbd> key returns you to `command mode`.
+<kbd>ESC</kbd> key returns you to `command mode`
 
 ### Insert mode
 
-This is the mode you use to type **insert** text into a buffer.
+This is the mode you use to type or **insert** text into a buffer
 
 | Key | Description | Reverse | Description |
 | ------ | ----------- | ----------- | ----------- |
@@ -30,7 +30,7 @@ This is the mode you use to type **insert** text into a buffer.
 
 **Saving changes**
 
-GO to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`.
+Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
 
 | Command | Description |
 | ------ | ----------- |
@@ -38,7 +38,7 @@ GO to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`.
 
 **Without saving changes**
 
-GO to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`.   
+Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`   
 
 | Command | Description |
 | ------ | ----------- |
@@ -46,7 +46,7 @@ GO to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`.
 
 **Saving to another file**
 
-GO to `command mode` by <kbd>ESC</kbd> then type the commant `:w filename` while the `filename` is your file name.
+Go to `command mode` by <kbd>ESC</kbd> then type the commant `:w filename` while the `filename` is your file name
 
 | Command | Description |
 | ------ | ----------- |
@@ -62,8 +62,10 @@ You can look at a file without the risk of altering its contents by using vi in 
 
 ### Setting a wrap margin
 
-   `set wm=5`
+| Command | Description |
+| ------ | ----------- |
+| `set wm=5` | Wrapp text five (5) characters |
 
-In insert mode, text is wrapped five (5) characters from the right margin of the screen.
+In insert mode, text is wrapped five (5) characters from the right margin of the screen
 
 
