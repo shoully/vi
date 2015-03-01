@@ -30,19 +30,35 @@ This is the mode you use to type **insert** text into a buffer.
 
 **Saving changes**
 
-GO to `command mode` and <kbd>ESC</kbd> then type `:wq`.
+GO to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`.
+
+| Command | Description |
+| ------ | ----------- |
+| `:wq` or `ZZ` | Save the contents & quit vi |
 
 **Without saving changes**
 
-   `:q!`
+GO to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`.   
+
+| Command | Description |
+| ------ | ----------- |
+| `:q!` | Quit vi without saveing |
 
 **Saving to another file**
 
-   `:w filename`
+GO to `command mode` by <kbd>ESC</kbd> then type the commant `:w filename` while the `filename` is your file name.
+
+| Command | Description |
+| ------ | ----------- |
+| `:w filename` | Save the contents to the `filename` & quit vi |
 
 ### Viewing a file
 
-   `view filename`
+You can look at a file without the risk of altering its contents by using vi in "read only" mode.
+
+| Command | Description |
+| ------ | ----------- |
+| `view filename` | Look at a file in "read only" mode |
 
 ### Setting a wrap margin
 
