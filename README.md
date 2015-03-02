@@ -2,15 +2,15 @@
 
 I will note what I learned using vi editor, so it's `vi cheatsheet` or `vi for designers` :)
 
-## Starting vi and opening files
+**Starting vi and opening files**
 
 Open your **Terminal** app & type `vi filename`
 
-## 1. Operating Modes
+1. Operating Modes
 
 There are two modes in **vi**, `command mode` & `Insert mode`
 
-### 2. Command mode
+2. Command mode
 
 In this mode commands are used to **move** around and edit text objects
 
@@ -18,7 +18,7 @@ In this mode commands are used to **move** around and edit text objects
 | ------ | ----------- |
 | <kbd>ESC</kbd> | returns you to `command mode` |
 
-### Insert mode
+**Insert mode**
 
 This is the mode you use to type or **insert** text into a buffer
 
@@ -28,9 +28,9 @@ This is the mode you use to type or **insert** text into a buffer
 | <kbd>a</kbd> | insert text **after** the cursor. | <kbd>A</kbd> | insert text at the **end** of the line. |
 | <kbd>o</kbd> | new line **below** the current line. | <kbd>O</kbd> | new line **above** the current line. |
 
-#### Saving files and exiting vi
+**Saving files and exiting vi**
 
-* **Saving changes**
+**Saving changes**
 
 Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
 
@@ -38,7 +38,7 @@ Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
 | ------ | ----------- |
 | `:wq` or `ZZ` | Save the contents & quit vi |
 
-* **Without saving changes**
+**Without saving changes**
 
 Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`   
 
@@ -46,7 +46,7 @@ Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
 | ------ | ----------- |
 | `:q!` | Quit vi without saveing |
 
-* **Saving to another file**
+**Saving to another file**
 
 Go to `command mode` by <kbd>ESC</kbd> then type the commant `:w filename` while the `filename` is your file name
 
@@ -54,7 +54,7 @@ Go to `command mode` by <kbd>ESC</kbd> then type the commant `:w filename` while
 | ------ | ----------- |
 | `:w filename` | Save the contents to the `filename` & quit vi |
 
-#### Viewing a file
+**Viewing a file**
 
 You can look at a file without the risk of altering its contents by using vi in "read only" mode.
 
@@ -62,7 +62,7 @@ You can look at a file without the risk of altering its contents by using vi in 
 | ------ | ----------- |
 | `view filename` | Look at a file in "read only" mode |
 
-#### Undo
+**Undo**
 
 Useful commants to undo, redo or repeat
 
@@ -73,7 +73,7 @@ Useful commants to undo, redo or repeat
 | <kbd>CTRL</kbd><kbd>R</kbd> | redo change |
 | `.` | repeat last change |
 
-##### Cut and paste
+**Cut and paste**
 
 Yank (copy) word or a line and paste it
 
@@ -87,7 +87,7 @@ Yank (copy) word or a line and paste it
 | `dw` | delete (cut) word |
 | `d$` or `D` | delete to the end of the line |
 
-#### Search and replace
+**Search and replace**
 
 Syntax:
        `:[address]s/old_text/new_text/`
@@ -99,7 +99,7 @@ Syntax:
 | `.+m` | current line plus m lines |
 | `%` | entire file |
 
-#### Setting a wrap margin
+**Setting a wrap margin**
 
 | Command | Description |
 | ------ | ----------- |
