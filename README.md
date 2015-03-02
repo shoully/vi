@@ -30,7 +30,7 @@ This is the mode you use to type or **insert** text into a buffer
 
 **Saving files and exiting vi**
 
-**Saving changes**
+1. Saving changes
 
 Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
 
@@ -38,7 +38,7 @@ Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
 | ------ | ----------- |
 | `:wq` or `ZZ` | Save the contents & quit vi |
 
-**Without saving changes**
+2. Without saving changes
 
 Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`   
 
@@ -46,7 +46,7 @@ Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
 | ------ | ----------- |
 | `:q!` | Quit vi without saveing |
 
-**Saving to another file**
+3. Saving to another file
 
 Go to `command mode` by <kbd>ESC</kbd> then type the commant `:w filename` while the `filename` is your file name
 
@@ -62,7 +62,7 @@ You can look at a file without the risk of altering its contents by using vi in 
 | ------ | ----------- |
 | `view filename` | Look at a file in "read only" mode |
 
-**Undo**
+**Redo & Undo**
 
 Useful commants to undo, redo or repeat
 
@@ -106,5 +106,3 @@ Syntax:
 | `set wm=5` | Wrapp text five (5) characters |
 
 In insert mode, text is wrapped five (5) characters from the right margin of the screen
-
-
