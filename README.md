@@ -6,11 +6,11 @@ I will note what I learned using vi editor, so it's `vi cheatsheet` or `vi for d
 
 Open your **Terminal** app & type `vi filename`
 
-1. Operating Modes
+* 1. Operating Modes
 
 There are two modes in **vi**, `command mode` & `Insert mode`
 
-2. Command mode
+* 2. Command mode
 
 In this mode commands are used to **move** around and edit text objects
 
@@ -28,9 +28,9 @@ This is the mode you use to type or **insert** text into a buffer
 | <kbd>a</kbd> | insert text **after** the cursor. | <kbd>A</kbd> | insert text at the **end** of the line. |
 | <kbd>o</kbd> | new line **below** the current line. | <kbd>O</kbd> | new line **above** the current line. |
 
-**Saving files and exiting vi**
+**Saving files**
 
-1. Saving changes
+* Saving changes
 
 Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
 
@@ -38,7 +38,7 @@ Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
 | ------ | ----------- |
 | `:wq` or `ZZ` | Save the contents & quit vi |
 
-2. Without saving changes
+* Without saving changes
 
 Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`   
 
@@ -46,7 +46,7 @@ Go to `command mode` by <kbd>ESC</kbd> then type the commant `:wq`
 | ------ | ----------- |
 | `:q!` | Quit vi without saveing |
 
-3. Saving to another file
+* Saving to another file
 
 Go to `command mode` by <kbd>ESC</kbd> then type the commant `:w filename` while the `filename` is your file name
 
@@ -70,7 +70,7 @@ Useful commants to undo, redo or repeat
 | ------ | ----------- |
 | `u` | undo changes |
 | `:u` | undo one change |
-| <kbd>CTRL</kbd><kbd>R</kbd> | redo change |
+| <kbd>CTRL</kbd>+<kbd>R</kbd> | redo change |
 | `.` | repeat last change |
 
 **Cut and paste**
