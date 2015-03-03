@@ -106,3 +106,7 @@ Syntax:
 | `set wm=5` | Wrapp text five (5) characters |
 
 In insert mode, text is wrapped five (5) characters from the right margin of the screen
+
+**Contributing**
+
+Pull requests and issues are welcome.
