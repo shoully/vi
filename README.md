@@ -62,7 +62,7 @@ You can look at a file without the risk of altering its contents by using vi in 
 | ------ | ----------- |
 | `view filename` | Look at a file in "read only" mode |
 
-**Redo & Undo**
+**Redo and Undo**
 
 Useful commants to undo, redo or repeat
 
