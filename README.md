@@ -109,4 +109,4 @@ In insert mode, text is wrapped five (5) characters from the right margin of the
 
 **Contributing**
 
-Pull requests and issues are welcome.
+You are welcome.
