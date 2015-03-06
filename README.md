@@ -6,7 +6,8 @@ I will note what I learned using vi editor, so it's `vi cheatsheet` or `vi for d
 
 Open your **Terminal** app & type `vi filename`
 
-* 1. Operating Modes
+
+**Operating Modes**
 
 There are two modes in **vi**, `command mode` & `Insert mode`
 
@@ -18,7 +19,7 @@ In this mode commands are used to **move** around and edit text objects
 | ------ | ----------- |
 | <kbd>ESC</kbd> | returns you to `command mode` |
 
-**Insert mode**
+* 2. Insert mode
 
 This is the mode you use to type or **insert** text into a buffer
 
