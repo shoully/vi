@@ -11,7 +11,7 @@ Open your **Terminal** app & type `vi filename`
 
 There are two modes in **vi**, `command mode` & `Insert mode`
 
-* 2. Command mode
+* 1. Command mode
 
 In this mode commands are used to **move** around and edit text objects
 
@@ -89,6 +89,8 @@ Yank (copy) word or a line and paste it
 | `d$` or `D` | delete to the end of the line |
 
 **Search and replace**
+
+Just use the syntax and replace the address
 
 Syntax:
        `:[address]s/old_text/new_text/`
