@@ -110,6 +110,6 @@ Syntax:
 
 In insert mode, text is wrapped five (5) characters from the right margin of the screen
 
-**Contributing**
+**Contribute**
 
-You are welcome.
+Any contribute are welcome.
