@@ -95,6 +95,9 @@ Just use the syntax and replace the address
 Syntax:
        `:[address]s/old_text/new_text/`
 
+Exapmle:
+       `:%s/post/article/` this furmula replace the all words 'post' with 'article' in the entire file. 
+
 | Address | Description |
 | ------ | ----------- |
 | `.` | current line |
