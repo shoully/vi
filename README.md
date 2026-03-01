@@ -26,7 +26,7 @@ This is the main mode when you open `vi`/`Vim`. In Normal Mode, pressing keys ru
 | Key | What it Does |
 | :------------------ | :----------------------------------------------------------------------------------------- |
 | <kbd>ESC</kbd> | The most important key: Always brings you back to **Normal Mode** from any other mode. |
-| <kbd>Ctrl</kbd>+<kbd>[</kbd> | Another way to get back to <kbd>Normal Mode</kbd>, often easier to type. |
+| <kbd>⌃</kbd>+<kbd>[</kbd> | Another way to get back to <kbd>Normal Mode</kbd>, often easier to type. |
 
 ### 2. Insert Mode
 
@@ -47,7 +47,7 @@ Visual Mode lets you **select parts of your text** with your cursor, like using 
 | :---------------------- | :----------------------------------------------------------------------------- |
 | <kbd>v</kbd> | Select text **character by character**. |
 | <kbd>V</kbd> | Select text **line by line**. |
-| <kbd>Ctrl</kbd>+<kbd>v</kbd> | Select text in a **rectangle shape**. |
+| <kbd>⌃</kbd>+<kbd>v</kbd> | Select text in a **rectangle shape**. |
 
 ### 4. Command-Line Mode (Ex Mode)
 
@@ -69,8 +69,8 @@ Learning to move your cursor quickly is a key skill in `vi`/`Vim`. You can add a
 | <kbd>gg</kbd> | Go to the **very first line** of the file. | <kbd>G</kbd> | Go to the **very last line** of the file. |
 | <kbd>5gg</kbd> or <kbd>5G</kbd> | Go to **line 5**. | <kbd>H</kbd> | Go to the **top** of the screen. |
 | <kbd>M</kbd> | Go to the **middle** of the screen. | <kbd>L</kbd> | Go to the **bottom** of the screen. |
-| <kbd>Ctrl</kbd>+<kbd>f</kbd> | Scroll **forward** one full screen. | <kbd>Ctrl</kbd>+<kbd>b</kbd> | Scroll **backward** one full screen. |
-| <kbd>Ctrl</kbd>+<kbd>d</kbd> | Scroll **down** half a screen. | <kbd>Ctrl</kbd>+<kbd>u</kbd> | Scroll **up** half a screen. |
+| <kbd>⌃</kbd>+<kbd>f</kbd> | Scroll **forward** one full screen. | <kbd>⌃</kbd>+<kbd>b</kbd> | Scroll **backward** one full screen. |
+| <kbd>⌃</kbd>+<kbd>d</kbd> | Scroll **down** half a screen. | <kbd>⌃</kbd>+<kbd>u</kbd> | Scroll **up** half a screen. |
 
 ---
 
@@ -98,7 +98,7 @@ These commands help you fix mistakes and do actions again.
 | Command | What it Does |
 | :-------------------------- | :-------------------------------------------------- |
 | <kbd>u</kbd> | **Undo** your last change. |
-| <kbd>Ctrl</kbd>+<kbd>r</kbd> | **Redo** a change you just undid. |
+| <kbd>⌃</kbd>+<kbd>r</kbd> | **Redo** a change you just undid. |
 | <kbd>.</kbd> | **Repeat** your very last action (extremely useful!). |
 
 ---
@@ -152,9 +152,9 @@ These commands work with **motions** (like `w` for word, `$` for end of line) to
 
 ## Visual Mode Actions (Vim Only)
 
-After you enter Visual Mode (using <kbd>v</kbd>, <kbd>V</kbd>, or <kbd>Ctrl</kbd>+<kbd>v</kbd>), you select text by moving your cursor. Then, you can use a Normal Mode command on the selected text.
+After you enter Visual Mode (using <kbd>v</kbd>, <kbd>V</kbd>, or <kbd>⌃</kbd>+<kbd>v</kbd>), you select text by moving your cursor. Then, you can use a Normal Mode command on the selected text.
 
-1.  Enter Visual Mode: Use <kbd>v</kbd> (for characters), <kbd>V</kbd> (for lines), or <kbd>Ctrl</kbd>+<kbd>v</kbd> (for blocks).
+1.  Enter Visual Mode: Use <kbd>v</kbd> (for characters), <kbd>V</kbd> (for lines), or <kbd>⌃</kbd>+<kbd>v</kbd> (for blocks).
 2.  **Select Text**: Move your cursor to highlight the text you want.
 3.  **Do Command**: Press a Normal Mode command (like `d` to delete, `y` to copy, `>` to indent, `<` to unindent).
 
@@ -168,11 +168,11 @@ After you enter Visual Mode (using <kbd>v</kbd>, <kbd>V</kbd>, or <kbd>Ctrl</kbd
 | :-------------------------- | :-------------------------------------------------------------------------------- |
 | `:sp` | **Split** the window **horizontally** (creates a new space for editing). |
 | `:vsp` | **Split** the window **vertically** (creates a new space for editing). |
-| <kbd>Ctrl</kbd>+<kbd>w</kbd> <kbd>w</kbd> | Move to the **next window**. |
-| <kbd>Ctrl</kbd>+<kbd>w</kbd> <kbd>h</kbd> | Move to the window on the **left**. |
-| <kbd>Ctrl</kbd>+<kbd>w</kbd> <kbd>l</kbd> | Move to the window on the **right**. |
-| <kbd>Ctrl</kbd>+<kbd>w</kbd> <kbd>j</kbd> | Move to the window **below**. |
-| <kbd>Ctrl</kbd>+<kbd>w</kbd> <kbd>k</kbd> | Move to the window **above**. |
+| <kbd>⌃</kbd>+<kbd>w</kbd> <kbd>w</kbd> | Move to the **next window**. |
+| <kbd>⌃</kbd>+<kbd>w</kbd> <kbd>h</kbd> | Move to the window on the **left**. |
+| <kbd>⌃</kbd>+<kbd>w</kbd> <kbd>l</kbd> | Move to the window on the **right**. |
+| <kbd>⌃</kbd>+<kbd>w</kbd> <kbd>j</kbd> | Move to the window **below**. |
+| <kbd>⌃</kbd>+<kbd>w</kbd> <kbd>k</kbd> | Move to the window **above**. |
 | `:q` | Close the **current window**. |
 | `:only` | Close all other windows, so only the current one is open. |
 
